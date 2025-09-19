@@ -78,5 +78,11 @@ article {
     border-radius: 5px;
 }
 
+section h2 {
+    background-color: var(--accent1-color);
+    color: #fff;
+    width: 100%;
+}
+
 
 
