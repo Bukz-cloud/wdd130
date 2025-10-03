@@ -196,15 +196,13 @@ footer .socialmedia img {
   padding: 20px;;
 }
 
-.contact img {
-    width: 200px;
-  height: auto;
-  border-radius: 6px;
-}
-
 .contact-head {
+    background-color: #fff;
+    color: black;
+    position: relative;
     font-family: Roboto, Arial, sans-serif;
     padding: 10px;
+    margin-bottom: 25px;
 }
 
 .address {

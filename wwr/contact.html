@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="information"
-        content="Our contact information are provided on this page including a contact form and the Whitewater Rafting Company staff profile.">
+        content="You can contact us for services and general enquiry through the contact details provided on this page.">
     <meta name="author" content="Olubukade John Adesanmi">
     <title>Contact Us - Whitewater Rafting Company</title>
     <link rel="stylesheet" href="styles/rafting.css">
@@ -25,9 +25,8 @@
     </header>
     <main>
         <div class="contact">
-            <img src="images/hero-image-profile.jpg" alt="Address Background">
             <div class="address">
-                <h2 class="contact-head">White Water Rafting Company</h2>
+                <h1 class="contact-head">White Water Rafting Company</h1>
                 <p>50 MoreRiver Street</p>
                 <p>Kolob, Califonia</p>
                 <p>+1 123 456 7899</p>
@@ -50,16 +49,18 @@
 
                 <label>Message Purpose</label>
                 <div class="radio">
-                    <label><input type="radio" name="purpose" value="general"> General Inquiry</label>
-                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-                    <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                    <label><input type="radio" name="purpose" id="purpose" value="general"> General Inquiry</label>
+                    <label><input type="radio" name="purpose" id="purpose" value="reservation"> Reservation
+                        Question</label>
+                    <label><input type="radio" name="purpose" id="purpose" value="suggestion"> Website
+                        Suggestion</label>
                 </div>
 
                 <label for="message">Message</label>
                 <textarea id="message" placeholder="Type here."></textarea>
 
                 <label class="checkbox">
-                    <input type="checkbox" name="newsletter"> Please Subscribe me to the monthly newspaper
+                    <input type="checkbox" id="subcribe" name="newsletter"> Please Subscribe me to the monthly newspaper
                 </label>
                 <button type="submit">Get in Touch!</button>
             </form>
