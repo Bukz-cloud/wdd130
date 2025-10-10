@@ -87,7 +87,7 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.9;
     background-color: var(--accent1-color);
     color: #fff;
 }
@@ -298,4 +298,151 @@ button:hover {
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.newsletter {
+    display: grid;
+    grid-template-columns: auto;
+}
 
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    margin-left: 0;
+}
+
+.newsletter p {
+    text-align: center;
+}
+
+.home-gallery {
+    display: block;
+    text-align: center;
+}
+
+.home-staff {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.home-staff img {
+    width: 100%;
+    display: block;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.trip-nav a {
+    background-color: #4b11eb;
+    color: white;
+    padding: 1px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s;
+  }
+
+  .trip-nav a:hover {
+    background-color: #396cf8;
+  }
+
+.home-trip {
+    font-family: var(--heading-font);
+    color: black;
+    text-align: center;
+    background-color: #fff;
+}
+
+.trips-header {
+    text-align: center;
+    background: url('https://b-cdn.springnest.com/media/img/hx/dscn07613371dec.jpg?width=800');
+    color: black;
+    padding: 100px 20px;
+    position: relative;
+  }
+
+  .trips-header h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+    background-color: None;
+    padding: 5px;
+    width: 90%;
+  }
+
+  .trip-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px 80px;
+    background-color: white;
+    margin: 40px auto;
+    border-radius: 15px;
+    max-width: 1100px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .trip-section:nth-child(even) {
+    flex-direction: row-reverse;
+    background-color: #eef7ff;
+  }
+
+  .trip-section img {
+    width: 50%;
+    border-radius: 15px;
+  }
+
+  .trip-details {
+    flex: 1;
+  }
+
+  .trip-details h2 {
+    color: white;
+  }
+
+  .cta {
+    text-align: center;
+    margin: 60px 0;
+  }
+
+  .cta a {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+  }
+
+  .cta a:hover {
+    background-color: #e65500;
+  }
+
+  table {
+    width: 90%;
+    margin: 0 auto 60px auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #004e7c;
+    color: white;
+  }
+
+  tr:hover {
+    background-color: #f1f7ff;
+  }
