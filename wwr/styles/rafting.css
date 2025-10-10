@@ -368,7 +368,6 @@ button:hover {
   .trips-header h1 {
     font-size: 3em;
     text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
-    background-color: None;
     padding: 5px;
     width: 90%;
   }
